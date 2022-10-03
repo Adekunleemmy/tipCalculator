@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+  background: #8585E5;
+}
+
+.container {
+  margin: 30px auto;
+  background: #242134;
+  height: 90vh;
+  width: 90%;
+  max-width: 700px;
+  color: white;
+  padding: 80px 5% 0;
+  border-radius: 30px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.down {
+  margin-top: 20px;
+
+}
+
+.same {
+  background: #323453;
+  width: 95%;
+  outline: none;
+  border: none;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  padding: 7px 30px;
+}
+.same:hover{
+  border: 1px solid #8585E5;
+}
+
+.two-text{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 95%;
+  font-size: 18px;
+}
+.render{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+.render .num{
+  display: flex;
+  align-items: center;
+}
+.render .num button{
+  background: #8585E5;
+  color: black;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  font-size: 16px;
+}
+.render .num p{
+  margin: 0 10px;
+  font-size: 30px;
+}
+.total p{
+  font-size: 30px;
+}
+.bill div, .tip div{
+  position: relative;
+}
+.bill span, .tip span{
+  color: white;
+  position: absolute;
+  font-size: 24px;
+  top: 13px;
+  left: 12px;
+}
+.a{
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+}

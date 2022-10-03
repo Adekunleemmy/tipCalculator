@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="bill">
+      <p class="name">Bill total</p>
+      <div>
+        <span>$</span>
+        <input onkeyup="render()" class="same" type="number" id="billInput" placeholder="000.00" />
+      </div>
+    </div>
+    <div class="tip">
+      <p class="down name">Tip</p>
+      <div>
+        <span>%</span>
+        <input onkeyup="render()" class="same" type="number" id="tipInput" placeholder="10" />
+      </div>
+
+    </div>
+    <div class="two-text">
+      <p>people</p>
+      <p>Total per Person</p>
+    </div>
+    <div class="render">
+      <div class="num">
+        <button onclick="increase()">+</button>
+        <p id="people">1</p>
+        <button onclick="decrease()">-</button>
+      </div>
+      <div class="total">
+        <P id="total">$000.00</P>
+      </div>
+    </div>
+    <p class="a">Adeks</p>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
